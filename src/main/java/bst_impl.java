@@ -13,7 +13,6 @@
         this.left=null;
         this.right=null;
         this.parent=null;
-
     }
 }
 
@@ -111,6 +110,7 @@ class bst_impl{
         bst.inorder(bst.root);
 
         System.out.println(bst.predecessor(bst.root,5).data);
+        System.out.println("Sync TEST");
 
 
     }
